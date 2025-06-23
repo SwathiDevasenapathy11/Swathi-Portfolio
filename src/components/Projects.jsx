@@ -5,7 +5,7 @@ const projects = [
     title: "Elevate Pet Health (Veterinary Services)",
     description:
       "Platform connecting pet owners with clinics to register pets, book services, and manage pet care.",
-    image: "src/assets/images/elevate-pet-health-bg.jpg",
+    image: "/images/elevate-pet-health-bg.jpg",
     tags: ["Angular", "Spring Boot", "PostgreSQL", "AWS", "S3"],
     visit: "https://demo.elevatepethealth.com",
   },
@@ -13,7 +13,7 @@ const projects = [
     title: "CultureSeekerz (Ed-Tech)",
     description:
       "Online platform connecting Indian teachers with global students for live and personalized learning.",
-    image: "src/assets/images/culture-seeekerz.jpg",
+    image: "/images/culture-seeekerz.jpg",
     tags: ["Angular", "Spring Boot", "PostgreSQL", "Firebase", "AWS", "S3"],
     visit: "https://cultureseekerz.com",
   },
@@ -21,7 +21,7 @@ const projects = [
     title: "Ayuryum (Meal Kit Ordering)",
     description:
       "Meal kit service with weekly menus, dietary options, and Stripe-based subscriptions.",
-    image: "src/assets/images/ayuryum.jpg",
+    image: "/images/ayuryum.jpg",
     tags: ["React", "Spring Boot", "Firebase", "Stripe", "AWS", "PostgreSQL"],
     visit: "",
   },
@@ -29,7 +29,7 @@ const projects = [
     title: "Famlynk (Social Platform)",
     description:
       "Family-oriented social media platform featuring detailed family trees and photo sharing.",
-    image: "src/assets/images/famlynk.jpg",
+    image: "/images/famlynk.jpg",
     tags: ["Angular", "Spring Boot", "MongoDB", "Firebase", "AWS"],
     visit: "http://famlynk.com/home/Login",
   },

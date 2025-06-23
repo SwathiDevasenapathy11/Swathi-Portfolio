@@ -96,7 +96,7 @@ const Hero = () => {
           mindset. Focused on building experiences that are user-friendly,
           scalable, and performance-driven.
         </motion.p>
-   
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -117,7 +117,7 @@ const Hero = () => {
           </Link>
 
           <a
-            href="src/assets/docs/Swathi_Devasenapathy.pdf"
+            href="/docs/Swathi_Devasenapathy.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-white underline hover:text-pink-400 transition"
@@ -222,7 +222,8 @@ const Hero = () => {
           className="relative z-10"
         >
           <motion.img
-            src="src/assets/images/swathi-profile.jpg"
+            // src="src/assets/images/swathi-profile.jpg"
+            src="/images/swathi-profile.jpg"
             alt="Swathi Devasenapathy"
             className="rounded-full w-48 h-48 sm:w-64 sm:h-64 object-cover border-4 border-pink-600"
             whileHover={{

@@ -21,7 +21,7 @@ const About = () => {
             <motion.div whileHover={{ scale: 1.05 }} className="relative">
               <div className="absolute "></div>
               <img
-                src="src/assets/images/about-me.png"
+                src="/images/about-me.png"
                 alt="About me"
                 className="relative rounded-lg w-full"
               />
